@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/superslides.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+</head>
+<body>
+    <!--Super Slide-->
+    <div id="slides">
+        <div id="overlay"></div>
+        <div class="slides-container">
+          <img src="img/1.jpg" alt="">
+          <img src="img/2.jpg" alt="">
+          <img src="img/3.jpg" alt="">
+        </div>
+        <div class="titleMessage">
+            <div class="heading">
+                <h4 class="main ">Sharmin Akter</h4>
+                <p class=" typed"></p>
+            </div>
+        </div>
+        <nav class="slides-navigation">
+            <a href="#" class="next"></a>
+            <a href="#" class="prev"></a>
+          </nav>
+      </div>
+      <!--Navbar-->
+      <nav id="navigation" class="navbar navbar-expand-lg sticky-top ">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#skill">Technical</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--About Section-->
+      <div id="about" class="section">
+          <div class="container">
+           <div class="row">
+               <div class="col-md-5">
+                   <img src="img/about.jpeg" class="aboutImage">
+               </div>
+               <div class="col-md-7">
+               <h4>My Name is Sharmin Akter</h4>
+               <p>"..ফেসবুকের 'ডেয়ার - ডেয়ার' খেলাটা দেখতে খুব মজা লাগে!
+
+                কী সুন্দর করে স্কুল-কলেজ-বিশ্ববিদ্যালয় পড়ুয়া ছেলে-মেয়েগুলো নিজ নিজ ফেসবুক ওয়ালে পোস্ট করে - 'I am pregnant' অথবা 'I am at police station' অথবা 'I think I'm in love. What should I do?' ইত্যাদি।
+                
+                এসব লিখার পরে আরও সুন্দর করে লিখে -
+                
+                Dare done!
+                I was challenged by...Now I want to challenge...
+                
+                কী অদ্ভুত সুন্দর! তাই না?
+                
+                আইডিগুলোর দিকে তাকালে মনে হয়, কিছু 'ভুইত্তামারা' টাইপের বড় বড় মানুষ বাচ্চাদের ছোট ছোট হাঁড়ি-পাতিল নিয়ে 'জুলাভাতি - জুলাভাতি' খেলছে!
+                
+                অথচ 'ডেয়ার'গুলো অনায়াসে হতে পারতো -
+                
+                'ক্লাস টেস্টে ম্যাথে হাইয়েস্ট পেয়েছি!'
+                
+                'আজ দুইজন টোকাইকে পেট ভরে খাইয়েছি!'
+                
+                'পুরনো জামা-কাপড় বের করে গরীবদের দিয়ে দিয়েছি!'
+                
+                'টিউশনি করে জমানো টাকায় মাকে নতুন মোবাইল কিনে দিয়েছি!' ইত্যাদি।
+                
+                সময়ের সাথে সাথে আমাদের বড় হবার কথা ছিল, অথচ আমরা দিন দিন শুধু ক্ষুদ্র থেকে ক্ষুদ্রতর হচ্ছি; আকৃতিতেও, প্রকৃতিতেও!.."
+                Turjo Ojrut ভাই এর লেখা।</p>
+                </div>
+           </div>   
+          </div>
+      </div>
+      <!--Skill Section-->
+      <div id="skill" class="skillsSection section">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12" text-center>
+                  <h4>TECHNICAL SCALE</h4>
+                  <p>My proficiency in each skill (drag to scroll)</p>
+                  <div class="owl-carousel owl-theme">
+                   <div class="skills">
+                    <span class="chart" data-percent="67">
+                        <span class="percent" >67</span>
+                        <canvas size="152" width="152px"></canvas>
+
+                    </span>
+                    <h3>PHP</h3>
+                        <p>Used in most web based project</p>
+                   </div>
+                   <div class="skills">
+                    <span class="chart" data-percent="14">
+                        <span class="percent" >14</span>
+                        <canvas size="152" width="152px"></canvas>
+                        
+                    </span>
+                    <h3>HTML</h3>
+                        <p>Used in most web based project</p>
+                   </div>
+                   <div class="skills">
+                    <span class="chart" data-percent="41">
+                        <span class="percent" >41</span>
+                        <canvas size="152" width="152px"></canvas>
+                        
+                    </span>
+                    <h3>Swift</h3>
+                        <p>Used in most web based project</p>
+                   </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <!--State Section-->
+    <section id="stateSection" class="stateSection section">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-3 col-sm-6">
+             <div class="squareItem">
+                 <div class="squareInnerContainer">
+                     <div class="squareIcon">
+                         <i class="fa fa-clock"></i>
+                       <div class="squareContent text-center">
+                          <h2>4</h2>
+                           <p>Years Experience</p>
+                       </div>  
+                     </div>
+                 </div>
+             </div>   
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="squareItem">
+                    <div class="squareInnerContainer">
+                        <div class="squareIcon">
+                            <i class="fa fa-calendar"></i>
+                          <div class="squareContent text-center">
+                             <h2>137</h2>
+                              <p>clients</p>
+                          </div>  
+                        </div>
+                    </div>
+                </div>   
+               </div>
+               <div class="col-md-3 col-sm-6">
+                <div class="squareItem">
+                    <div class="squareInnerContainer">
+                        <div class="squareIcon">
+                            <i class="fa fa-bolt"></i>
+                          <div class="squareContent text-center">
+                             <h2>4</h2>
+                              <p>Years Experience</p>
+                          </div>  
+                        </div>
+                    </div>
+                </div>   
+               </div>
+               <div class="col-md-3 col-sm-6">
+                <div class="squareItem">
+                    <div class="squareInnerContainer">
+                        <div class="squareIcon">
+                            <i class="fa fa-bolt"></i>
+                          <div class="squareContent text-center">
+                             <h2>4</h2>
+                              <p>Years Experience</p>
+                          </div>  
+                        </div>
+                    </div>
+                </div>   
+               </div>
+        </div>
+        </div>
+    </section>
+    <!--Content Section-->
+    <section id="content" class="contactSection section">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 text-center">
+                  <p>Like What You See</p>
+                  <h3>I Would like to hear from You!</h3>
+                  <a href="mailTo:abc@gmail.com"
+                             class="contactButton">GET IN TOUCH!</a>
+              </div>
+          </div>
+      </div>  
+    </section>
+    <!--Portfolio-->
+    <section id="portfolio" class="portfolioSection section">
+        <div class="container">
+            <div class="row">
+                <div class="heading">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="filter">
+                    <ul class="fliters">
+                        <li><a href="#" data-filter="*" class="current">All</a></li>
+                        <li><a href="#" data-filter=".apps" >Apps</a></li>
+                        <li><a href="#" data-filter=".me" >Me</a></li>
+                        <li><a href="#" data-filter=".websites" >Websites</a></li>
+                    </ul>
+                </div>
+                <div class="portfoloItems">
+                    <ul class="items">
+                        
+                        <li class="apps col-xs-6 col-sm-4 col-md-3">
+                            <div class="item">
+                            <img src="img/portfolio/thumbnails/dog-square.jpeg">
+                            <div class="icons">
+                                <a class="openButton"href="img/portfolio/thumbnails/dog-square.jpeg"
+                                data-fancybox data-caption="Get Coin">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink"href=""target="blank">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+                            </div>
+                        </li>
+                        <li class="me col-xs-6 col-sm-4 col-md-3">
+                            <div class="item">
+                            <img src="img/portfolio/thumbnails/dog-square.jpeg">
+                            <div class="icons">
+                                <a class="openButton"href="img/portfolio/thumbnails/dog-square.jpeg"
+                                data-fancybox data-caption="Get Coin">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink"href=""target="blank">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+                            <div class="imageOverLay"></div>
+                            </div>
+                        </li>
+                        <li class="websites col-xs-6 col-sm-4 col-md-3">
+                            <div class="item">
+                            <img src="img/portfolio/thumbnails/dog-square.jpeg">
+                            <div class="icons">
+                                <a class="openButton"href="img/portfolio/thumbnails/dog-square.jpeg"
+                                data-fancybox data-caption="Get Coin">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink"href=""target="blank">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+                            <div class="imageOverLay"></div>
+                            </div>
+                        </li>
+                        <li class="apps col-xs-6 col-sm-4 col-md-3">
+                            <div class="item">
+                            <img src="img/portfolio/thumbnails/dog-square.jpeg">
+                            <div class="icons">
+                                <a class="openButton"href="img/portfolio/thumbnails/dog-square.jpeg"
+                                data-fancybox data-caption="Get Coin">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href=""target="blank">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+                            <div class="imageOverLay"></div>
+                            </div>
+                        </li>
+                        <li class="me col-xs-6 col-sm-4 col-md-3">
+                            <div class="item">
+                            <img src="img/portfolio/thumbnails/dog-square.jpeg">
+                            <div class="icons">
+                                <a class="openButton"href="img/portfolio/thumbnails/dog-square.jpeg"
+                                data-fancybox data-caption="Get Coin">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink"href=""target="blank">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+                            <div class="imageOverLay"></div>
+                            </div>
+                        </li>
+                        <li class="websites col-xs-6 col-sm-4 col-md-3">
+                            <div class="item">
+                            <img src="img/portfolio/thumbnails/dog-square.jpeg">
+                            <div class="icons">
+                                <a class="openButton" href="img/portfolio/thumbnails/dog-square.jpeg"
+                                data-fancybox data-caption="Get Coin">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a  class="projectLink" href=""target="blank">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+                            <div class="imageOverLay"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer Section-->
+    <section class= footerSection text-center>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <P>@copy:Copyright Only Sharmin tumpa!</P>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+      <script src="js/all.min.js"></script>
+      <script src="js/typed.min.js"></script>
+      <script src="js/jquery.easypiechart.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>    
+      <script src="js/jquery.superslides.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="js/main.js"></script>
+</body>
+</html>
